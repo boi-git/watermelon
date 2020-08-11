@@ -1,4 +1,4 @@
-		* {
+* {
 	box-sizing: border-box;
 }
 
@@ -20,13 +20,13 @@ body {
 	background-size: cover;
 	overflow: hidden;
 	background: url(img/bg1.jpg);
-  background-position: center;
-  background-size: cover;
+	background-position: center;
+	background-size: cover;
 	font-family: Open Sans;
 }
-main{
 
-}
+main {}
+
 p {
 	font-size: 10px;
 }
@@ -300,7 +300,6 @@ nav ul li a {
 	margin-top: 0;
 	margin-bottom: 0;
 	top: 10px;
-
 }
 
 mark.orange {
@@ -312,7 +311,7 @@ mark.orange {
 	grid-area: sub;
 	position: fixed;
 	right: 7%;
-	top: 30%;
+	top: 26%;
 }
 
 .footer {
@@ -359,20 +358,17 @@ table {
 	color: white;
 	margin: 4px;
 	padding: 5px;
-
-
 }
 
 .subtable td {
 	padding-bottom: 40px;
 	padding-right: 10px;
-
 }
 
 table {
 	margin: auto;
 	margin-top: 10px;
-	}
+}
 
 .fa {
 	font-size: 24px;
@@ -449,15 +445,14 @@ i:hover {
 .imgbg {
 	opacity: 0.3;
 	width: auto;
-
-
 	background-position: center;
-  background-size: cover;
+	background-size: cover;
 }
-.box p{
-	font-size: 15px;
 
+.box p {
+	font-size: 15px;
 }
+
 audio {
 	width: 100px;
 	height: 40px;
@@ -563,7 +558,7 @@ audio {
 }
 .myButton {
 	float: right;
-	background-color:  #F3A30A;
+	background-color: #F3A30A;
 	border-radius: 10px;
 	border: 1px solid #ffaa22;
 	cursor: pointer;
@@ -736,14 +731,12 @@ form {
 	position: fixed;
 	right: 7%;
 	top: 15%;
-
 }
 .cont-menu .sub {
 	position: relative;
 }
-.cont-menu p{
+.cont-menu p {
 	font-size: 13px;
-
 }
 .cont-menu .box {
 	box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086), 0 100px 80px rgba(0, 0, 0, 0.12);
@@ -752,7 +745,6 @@ form {
 	border-radius: 7px;
 	border: 1px solid black;
 	text-align: center;
-
 }
 .cont-menu .fimg {
 	margin: 5px 3px;
@@ -783,12 +775,12 @@ form {
 /* ------------------------------------------------ju1----------------------------------------------------------------------------------- */
 .juu {
 	position: fixed;
-	left: 15%;
+	left: 20%;
 	top: 12%;
 	text-align: center;
 }
 .juu h1 {
-	font-size: 50px;
+	font-size: 5em;
 }
 .juu .main {
 	position: relative;
@@ -880,43 +872,47 @@ form {
 	height: 150px;
 	color: orange;
 }
-
-
 .juu2 .myButton {
-  color: white;
-  float: right;
+	color: white;
+	float: right;
 	background-color: transparent;
 	border: none;
 	cursor: pointer;
-
 	font-size: 15px;
 	font-weight: bold;
 	padding: 10px 5px;
 	text-decoration: none;
-
 }
-
-
-
-
-.purchase .box{
-
+.purchase .box {
 	top: 35%;
 	padding: 20% 20%;
 }
-
-
-.bgtext{
+.bgtext {
 	background: rgba(255, 255, 255, 0.72);
-	border-radius: 2px;
-
-
+	font-size: 1em;
 }
+.bgtext1 {
+	background: rgba(255, 255, 255, 0.72);
+	font-size: 2em;
+}
+
 /* ________________________________________________________________ */
-#a {
+#pop1 {
 	box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086), 0 100px 80px rgba(0, 0, 0, 0.12);
 	min-height: 100px;
 	background: white;
 	border-radius: 7px;
 	border: 1px solid black;
+}
+iframe {
+	height: 45vh;
+	width: 25vw;
+	border-radius: 5px;
+	padding: 10px 10px;
+}
+
+}
+.help p {
+	font-size: 3em;
+	padding-left: 10px;
 }
